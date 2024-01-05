@@ -7,6 +7,7 @@ import { HomeComponent } from "./pages/home/home.component";
 import { ParentDataComponent } from './component/parent-data/parent-data.component';
 import { DirectivesComponent } from './directives/directives.component';
 import { IfRenderComponent } from './components/if-render/if-render.component';
+import { EventosComponent } from './components/eventos/eventos.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { IfRenderComponent } from './components/if-render/if-render.component';
         ParentDataComponent,
         DirectivesComponent,
         IfRenderComponent,
+        EventosComponent,
     ],
     providers: [],
     bootstrap: [AppComponent],
