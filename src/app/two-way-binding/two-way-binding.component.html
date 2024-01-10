@@ -9,4 +9,8 @@
     />
     <button type="submit">Enviar</button>
   </form>
+
+  <div *ngIf="name !== ''">
+    <p>O nome é: {{ name }}</p>
+  </div>
 </div>
